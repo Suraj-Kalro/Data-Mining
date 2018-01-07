@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+}
+.menuitem {
+  padding:8px;
+  margin-top:7px;
+  border-bottom:1px solid #f1f1f1;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:lightblue;
+  float:left;
+  width:20%;
+  padding:10px 15px;
+  margin-top:7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:80%;
+  }
+  .right {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Welcome to the Bearing Search Engine</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Bearing Companies: </div>
+    <div class="menuitem">NHBB</div>
+    <div class="menuitem">NTNN</div>
+    <div class="menuitem">SKW</div>
+  <br>
+   <div class="menuitem"> <a href="Instructions.html">Instructions</a> </div>
+   <br>
+   <div class="menuitem"> <a href="flowchart.html">FlowChart</a> </div>
+  </div>
+
+
+
+  <div class="main">
+    <h2>Homepage</h2>
+    <p> Welcome to the bearing search engine. The NHBB Bearing Company is referenced for the search!</p>
+    <img src="img/maxresdefault.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>Contact US:</h2>
+   <h4> Bearing Center</h4>
+    <p>Leonardo Fonzetti.</p>
+    <p>Suraj Lalchand Kalro</p>
+    <p>Poojtha Shreedhar</p>
+<p>Tanya Sengupta</p>
+<p>Email: bearing123@gmail.com</P>
+<p>Mob-(123) 456-7890</p>
+  </div>
+</div>
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">Copyright Ball Bearing Inc.@2018</div>
+
+</body>
+</html>
